@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carnet Guide de Voyage</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: navy;
+            color: white;
+        }
+        header {
+            background: navy;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #1a1a6e;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            padding: 8px 16px;
+        }
+        nav a:hover {
+            background: white;
+            color: navy;
+            border-radius: 5px;
+        }
+        .hero {
+            background: url('https://source.unsplash.com/1600x900/?nature,travel') center/cover;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        .hero h1 {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+        .destinations {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 20px;
+        }
+        .destination {
+            background: white;
+            padding: 20px;
+            width: 250px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.2);
+            margin: 10px;
+            transition: transform 0.3s;
+            color: navy;
+        }
+        .destination:hover {
+            transform: scale(1.05);
+        }
+        .destination img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .destination a {
+            display: inline-block;
+            background: navy;
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .destination a:hover {
+            background: white;
+            color: navy;
+        }
+        footer {
+            background: #1a1a6e;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>Carnet Guide de Voyage</header>
+    <nav>
+        <a href="#">Accueil</a>
+        <a href="#">Destinations</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="hero">
+        <h1>Explorez le monde à travers ses cultures, ses paysages et sa gastronomie.</h1>
+    </div>
+    <section class="destinations">
+        <div class="destination">
+            <img src="https://source.unsplash.com/300x200/?newyork,city" alt="New York">
+            <h3>New York</h3>
+            <p>Métropole vibrante et cosmopolite</p>
+            <a href="#">Découvrir</a>
+        </div>
+        <div class="destination">
+            <img src="https://source.unsplash.com/300x200/?tokyo,japan" alt="Tokyo">
+            <h3>Tokyo</h3>
+            <p>Mélange unique entre modernité et traditions</p>
+            <a href="#">Découvrir</a>
+        </div>
+        <div class="destination">
+            <img src="https://source.unsplash.com/300x200/?brazil,beach" alt="Brésil">
+            <h3>Brésil</h3>
+            <p>Pays tropical aux rythmes envoûtants</p>
+            <a href="#">Découvrir</a>
+        </div>
+        <div class="destination">
+            <img src="https://source.unsplash.com/300x200/?italy,landscape" alt="Italie">
+            <h3>Italie</h3>
+            <p>Terre d’histoire et de gastronomie</p>
+            <a href="#">Découvrir</a>
+        </div>
+    </section>
+    <footer>
+        &copy; 2025 Carnet de Voyage. Tous droits réservés.
+    </footer>
+</body>
+</html>
